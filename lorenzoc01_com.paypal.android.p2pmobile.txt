@@ -1,0 +1,13 @@
+[BEGIN]
+Remove root check
+Tested on PayPal v10.13.0
+github.com/lorenzoc01
+
+[PACKAGE]
+[CLASSES]
+{"classes_name":"classes.dex"}
+{"group":"1"}
+{"original":"01 00 12 12 70 40 55"}
+{"replaced":"01 00 12 02 70 40 55"}
+[END]
+Patch applied correctly!
