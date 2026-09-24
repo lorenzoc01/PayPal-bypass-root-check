@@ -1,4 +1,4 @@
-# PayPal-bypass-root-check
+# PayPal - Bypass Root Check
 Lucky Patcher custom patch to bypass the root check in PayPal android app.
 
 ## Usage
