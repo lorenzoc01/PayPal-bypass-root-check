@@ -15,7 +15,7 @@ The patch replaces a byte in the classes.dex file, forcing an if condition to be
 
 This project is provided solely for educational, research, interoperability, and security-testing purposes.
 
-The author does not endorse, encourage, or condone any malicious, fraudulent, unauthorized, or unlawful use of this project or modified versions of CieID.
+The author does not endorse, encourage, or condone any malicious, fraudulent, unauthorized, or unlawful use of this project or modified versions of PayPal.
 
 Use is permitted only on devices you own or are explicitly authorized to modify and test. Users are solely responsible for complying with all applicable laws, regulations, licenses, and terms of service.
 
