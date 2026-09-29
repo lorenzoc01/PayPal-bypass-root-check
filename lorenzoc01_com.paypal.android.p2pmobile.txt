@@ -1,13 +1,14 @@
 [BEGIN]
 Remove root check
-Tested on PayPal v10.13.0
+Tested on PayPal v10.14.0 and v10.13.0
 github.com/lorenzoc01
 
 [PACKAGE]
 [CLASSES]
 {"classes_name":"classes.dex"}
-{"group":"1"}
-{"original":"01 00 12 12 70 40 55"}
-{"replaced":"01 00 12 02 70 40 55"}
+
+{"group":"1","original":"54 30 ?? ?? 1a 01 ?? ?? 12 12 70 40","replaced":"54 30 ?? ?? 1a 01 ?? ?? 12 02 70 40"}
+
+{"group":"1","original":"54 30 ?? ?? 1b 01 ?? ?? ?? ?? 12 12 70 40","replaced":"54 30 ?? ?? 1b 01 ?? ?? ?? ?? 12 02 70 40"}
 [END]
 Patch applied correctly!
