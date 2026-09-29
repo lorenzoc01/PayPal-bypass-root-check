@@ -6,7 +6,11 @@ Lucky Patcher custom patch to bypass the root check in PayPal android app.
 2. In LuckyPatcher, apply the custom patch to PayPal app (or "Create Modified APK File" with the patch applied and install the rebuilt apk)
 
 ## Compatibility
-The patch was tested on version `10.13.0` of the app. It could work in future versions too, but that's not guaranteed.
+The patch was tested and is working on versions:
+- `10.14.0`
+- `10.13.0`
+
+It could work in future versions too, but that's not guaranteed.
 
 ## Explanation
 The patch replaces a byte in the classes.dex file, forcing an if condition to be false and bypassing the code responsible for crashing the app on statup when root privileges are found.
