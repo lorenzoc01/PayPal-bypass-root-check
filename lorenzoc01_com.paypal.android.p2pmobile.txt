@@ -1,14 +1,19 @@
 [BEGIN]
 Remove root check
-Tested on PayPal v10.14.0 and v10.13.0
+Tested on PayPal v10.19.0
 github.com/lorenzoc01
 
 [PACKAGE]
 [CLASSES]
-{"classes_name":"classes.dex"}
+{"class name":"Lcom/paypal/oslo/app/rasp/RaspDetectionLogTransmitter;"}
+{"method name":"getHighSpeedVideoSizes"}
+{"return type":"V"}
+{"replaced":"0E 00"}
 
-{"group":"1","original":"54 30 ?? ?? 1a 01 ?? ?? 12 12 70 40","replaced":"54 30 ?? ?? 1a 01 ?? ?? 12 02 70 40"}
+{"class name":"Lcom/paypal/oslo/core/startup/AppVerifierInitializer$create$1;"}
+{"method name":"invokeSuspend"}
+{"return type":"Ljava/lang/Object;"}
+{"replaced":"62 02 65 C0 11 02"}
 
-{"group":"1","original":"54 30 ?? ?? 1b 01 ?? ?? ?? ?? 12 12 70 40","replaced":"54 30 ?? ?? 1b 01 ?? ?? ?? ?? 12 02 70 40"}
 [END]
 Patch applied correctly!
