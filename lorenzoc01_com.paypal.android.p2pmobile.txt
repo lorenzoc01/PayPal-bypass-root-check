@@ -1,6 +1,6 @@
 [BEGIN]
 Remove root check
-Tested on PayPal v10.19.0
+Tested on PayPal v10.19.0, v10.20.1
 github.com/lorenzoc01
 
 [PACKAGE]
