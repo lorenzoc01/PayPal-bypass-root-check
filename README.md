@@ -8,6 +8,7 @@ Lucky Patcher custom patch to bypass the root check in PayPal android app.
 ## Compatibility
 The patch was tested and is working on versions:
 - `10.19.0`
+- `10.20.1`
 
 It could work in future versions too, but that's not guaranteed.
 
